@@ -59,9 +59,9 @@ def fractal_builder(set_type, max_iter, exponent,
           'execution time: {}.'.format(set_type, exponent,
                                        img_w, img_h, max_iter, execution_time))
     if set_type == 'mandelbrot':
-        image.save('{}_{}_{}.bmp'.format(set_type, exponent, max_iter), 'bmp')
+        image.save('images/{}_{}_{}.bmp'.format(set_type, exponent, max_iter), 'bmp')
     elif set_type == 'julia':
-        image.save('{}_{}_{}_r={}_i={}.bmp'.format(set_type, exponent, max_iter,
+        image.save('images/{}_{}_{}_r={}_i={}.bmp'.format(set_type, exponent, max_iter,
                                                    const_real, const_imaginary),
                    'bmp')
     fractal = image.show()
