@@ -80,7 +80,7 @@ fractal_builder('mandelbrot',100,2)
 #fractal_builder('mandelbrot',100,5)
 
 #fractal_builder('julia',10,2,-0.111,0.151)
-fractal_builder('julia',100,2,-0.111,0.151)
+# fractal_builder('julia',100,2,-0.111,0.151)
 #fractal_builder('julia',250,2,-0.111,0.151)
 #fractal_builder('julia',500,2,-0.111,0.151)
 #fractal_builder('julia',1000,2,-0.111,0.151)
